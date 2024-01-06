@@ -1,0 +1,117 @@
+/* css inspirado na fan wiki da ethel cain */
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,400;0,700;1,300;1,400;1,700&family=Roboto:wght@300&display=swap');
+
+
+@font-face {
+    font-family: AveriaSerifLibre;
+    src: url(/fonts/AveriaSerifLibre-Light.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: AveriaSerifLibreItalic;
+    src: url(/fonts/AveriaSerifLibre-Italic.ttf) format(truetype);
+}
+
+
+.quote { 
+    font-family: AveriaSerifLibreItalic;
+    text-align: center;
+    font-style: italic;
+}
+
+h1{ font-family: AveriaSerifLibreItalic;
+    text-align: left;
+    color: blanchedalmond;
+}
+
+*{ font-family: AveriaSerifLibre;
+
+}
+
+h2{
+    text-align: left;
+    color: beige;
+}
+
+
+body {
+    background-image: url(https://www.rocktotal.com/wp-content/uploads/2022/04/ethel-cain.jpg)
+}
+
+main{
+    width: 70%;
+    padding: 20px;
+}
+
+.header{
+    text-align: center;
+    display: flex
+}
+
+.yes {
+    display: inline;
+    padding: 2px;
+    margin: auto 1%;
+    font-size: 15;
+}
+
+.headerimage {
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+.headerlinks {
+    margin: auto;
+    object-position: right;
+    flex:1
+}
+
+*{
+    color: antiquewhite;
+    text-shadow:
+    1px 1px 1px black,
+    2px 2px 1px black;
+   
+}
+
+.main {
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    border-color: beige;
+    background-color: rgb(59, 48, 40);
+    margin: auto;
+  }
+
+table{
+  width: 100%;
+  max-width: 525;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  overflow-x: auto;
+  border-spacing: 0;
+}
+
+
+  table,
+td {
+  border: 1px solid antiquewhite;
+  
+}
+
+thead,
+tfoot {
+  background-color:  rgb(44, 36, 31);
+  color: #fff;
+
+}
+
+audio {
+
+    padding: 30;
+
+}
+
